@@ -1,0 +1,24 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Node
+node_modules/
+
+# Build files
+build/
+dist/
+
+# IDE
+.idea/
+
+# Local vector database (if generated)
+chroma_db/
